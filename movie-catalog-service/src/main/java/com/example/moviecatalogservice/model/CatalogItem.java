@@ -11,19 +11,30 @@ public class CatalogItem {
         this.rating = rating;
     }
 
-    public String getDesc() {
-        return desc;
-    }
+	public String getName() {
+		return name;
+	}
 
-    public void setDesc(String desc) {
-        this.desc = desc;
-    }
+	public void setName(String name) {
+		this.name = name;
+	}
 
-    public int getRating() {
-        return rating;
-    }
+	public String getDesc() {
+		return desc;
+	}
 
-    public void setRating(int rating) {
-        this.rating = rating;
-    }
+	public void setDesc(String desc) {
+		this.desc = desc;
+	}
+
+	public int getRating() {
+		return rating;
+	}
+
+	public void setRating(int rating) {
+		this.rating = rating;
+	}
+
+    
+    
 }
